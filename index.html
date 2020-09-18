@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Simple Calculator with Vue</title>
+        <meta name="description" content="Simple Calculator with VueJs">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <div id="simple-calculator" class="calculator">
+            <template v-for="(node, index) in nodes">
+                <calculator :classname="node.className" :event="node.event" :value="node.value" :result="current"></calculator>
+            </template>
+            <!-- {{current}} -->
+        </div>
+        
+        <script src="assets/js/vue.js"></script>
+        <script src="assets/js/app.js"></script>
+    </body>
+</html>

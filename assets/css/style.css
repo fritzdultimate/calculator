@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+.calculator {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    flex-wrap: wrap;
+    font-size:25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn {
+    justify-content: center;
+    border: 1px solid #ccc;
+    background-color:#b7b4b4;
+    color:#3e3c3c;
+    width: 75px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.display {
+    display: block;
+    background-color:#312c2c;
+    color:#fff;
+    width: 100%;
+}
+.zero {
+    width:150px;
+}
