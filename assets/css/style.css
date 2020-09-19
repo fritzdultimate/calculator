@@ -30,3 +30,7 @@
 .zero {
     width:150px;
 }
+
+.operator {
+    background: rgb(238, 163, 24);
+}
